@@ -31,4 +31,4 @@ jobs:
           echo "No changes to commit."
         fi
       env:
-        GH_TOKEN: ${{ secrets.DBMS_ACCESS }}
+        GH_TOKEN: ${{ secrets.DBMS_SC }}
