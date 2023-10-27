@@ -31,4 +31,4 @@ jobs:
           git push -u origin HEAD
         }
       env:
-        GH_TOKEN: ${{ secrets.DBMS_ACCESS }}
+        GH_TOKEN: ${{ secrets.DBMS_SC }}
